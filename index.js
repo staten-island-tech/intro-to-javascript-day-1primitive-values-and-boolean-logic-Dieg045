@@ -1,6 +1,6 @@
-let string = "strings";
+/*let string = "strings";
 let sentence = "Hello " + "Junshen";
-let sentence2 = " and Ema";
+let sentence2 = " and Ema";*/
 //console.log(sentence + sentence2);
 
 /*const longSentence = `${student1} and ${student2} are amazing and will be taking ${courseName} with ${teacherName}`; //Template literal or Template String
@@ -8,14 +8,14 @@ let url = ${url}${movie}  */
 
 
 ////Numbers or Integers
-let year = 2020;
+/*let year = 2020;
 let nextYear = 2020 + 1;
 let past = 2020 / 2;
-let farFuture = 2020 * 50;
+let farFuture = 2020 * 50;*/
 
 //////////Booleans
-let trueStatement = true;
-let falseStatement = false;
+/*let trueStatement = true;
+let falseStatement = false;*/
 
 /////Null and Undefined
 //let Ron; //declared Ron but not defined Ron
@@ -23,8 +23,8 @@ let falseStatement = false;
 /////console.log(Sarah);
 
 /////////Boolean Logic
-let student = "Caroline";
-let age = 15;
+/*let student = "Caroline";
+let age = 15;*/
 //console.log(student === "Caroline");
 //console.log(student === "caroline");
 //console.log(age === "15");
@@ -33,7 +33,7 @@ let age = 15;
 console.log(age <= 15 && age > 19);*/
 
 //////If statements
-let school = "Elementary";
+/*let school = "Elementary";
 if(school === "Elementary") {
     console.log("You are in k-5");
 } else if(school === "Middle"){
@@ -42,4 +42,37 @@ if(school === "Elementary") {
     console.log("you are in HS");
 }
 let ron = "Ron";
-console.log(ron !== "Ema");
+console.log(ron !== "Ema");*/
+
+//Challenge 1
+let lightColor = "green";
+if (lightColor === "green") {
+    console.log("Go!");
+} else if (lightColor === "yellow") {
+    console.log("Caution!");
+} else {
+    console.log("STOP!");
+}
+
+//Challenge 2 
+let kristyTollerance = true;
+let baoBaoTollerance = true;
+if (kristyTollerance === true && baoBaoTollerance === true) {
+    console.log("Only Milk");
+} else if (kristyTollerance === true || baoBaoTollerance === true) {
+    console.log("Get both milks");
+} else {
+    console.log("Only Almond Milk");
+}
+
+//Challenge 3
+let temp = 67;
+if (temp < 68) {
+    console.log("Too Cold!");
+} else if (temp >= 68 && temp <= 72) {
+    console.log("Perfect");
+} else if (temp >= 73 && temp <= 76) {
+    console.log("Warm");
+} else {
+    console.log("Too Hot!");
+}
