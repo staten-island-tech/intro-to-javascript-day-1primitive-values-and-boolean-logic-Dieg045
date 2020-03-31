@@ -136,7 +136,10 @@ console.log(add(...numbers));*/
 //////CHALLENGES FOR ARRAYS
 
 //CHALLENGE 1
-let students = ["Riya", "Omor", "Alan", "Michael", "Lisa", "Richard"];
-students.filter(student => student.length >= 5).forEach(el => console.log(el))
+/*let students = ["Riya", "Omor", "Alan", "Michael", "Lisa", "Richard"];
+students.filter(student => student.length >= 5).forEach(el => console.log(el))*/
 
 //CHALLENGE 2
+/*let students = ["Riya", "Omor", "Alan", "Michael", "Lisa", "Richard"];
+console.log(students.includes("junshen"));
+console.log(students.some(student => student === "Alan" || student === "Savva"));*/
