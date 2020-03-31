@@ -120,15 +120,23 @@ const myFunc = makeFunc();
 myFunc();*/
 
 //////////arrays
-const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran", "Brian", "Caroline"];
+//const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran", "Brian", "Caroline"];
 //names.push("Caroline");
-names.forEach(el => console.log(el));
+//names.forEach(el => console.log(el));
 //names.filter(//somecode).forEach(el () => console.log(el))
 
 ///spread operator
-const numbers = [1, 2, 3];
+//const numbers = [1, 2, 3];
 
-const add = function (x, y, z) {
+/*const add = function (x, y, z) {
     return x + y;
 };
-console.log(add(...numbers));
+console.log(add(...numbers));*/
+
+//////CHALLENGES FOR ARRAYS
+
+//CHALLENGE 1
+let students = ["Riya", "Omor", "Alan", "Michael", "Lisa", "Richard"];
+students.filter(student => student.length >= 5).forEach(el => console.log(el))
+
+//CHALLENGE 2
